@@ -1,0 +1,19 @@
+.job-title {
+  font-style:italic;
+}
+
+.job-duration {
+  margin: 0.67em 0; /* from bootstrap h1 */
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+  text-align:right;
+}
+
+@media (max-width: 1199px) {
+  .job-duration {
+    text-align:left;
+  }
+}
+
