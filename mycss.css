@@ -20,3 +20,10 @@
 .bottom-margin {
    margin-bottom: 0.5cm;
 }
+
+.bib {
+  display: none;
+  margin-top: 0.2cm;
+  font-family: 'Courier New';
+  background-color: #F0F8FF;
+}
