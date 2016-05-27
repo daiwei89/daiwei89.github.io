@@ -40,26 +40,84 @@
           <!-- ========================================= -->
 
           <hr>
+          <h4>Parallel and Distributed Block-Coordinate Frank-Wolfe Algorithms</h4>
+          <p>Yu-Xiang Wang, Veeranjaneyulu Sadhanala, <strong>Wei Dai</strong>, Willie
+          Neiswanger, Suvrit Sra, Eric P Xing</p>
+
+          <p><em>To appear in International Conference of Machine Learning
+            (ICML), 2016</em></p>
+
+          <a role="button" class="btn btn-default btn-sm"
+            href="http://arxiv.org/abs/1409.6086">
+            <span class="glyphicon glyphicon-link"></span> arXiv </a>
+
+          <!-- paper -->
+          <!--
+          <a role="button" class="btn btn-default btn-sm"
+            href="http://arxiv.org/pdf/1409.6086v1.pdf">
+            <span class="glyphicon glyphicon-file"></span> pdf </a>
+          -->
+
+          <!-- bib button -->
+          <a id="wang14" style="cursor:pointer;" role="button" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-file"></span> bib </a>
+          <script type="text/javascript">
+            $(document).ready(function(){$("#wang14").click(function(){
+              $("#wang14-content").slideToggle(); }); });
+          </script>
+          <div id="wang14-content" class="bib">
+            <p>
+            @article{wang2014asynchronous,</br>
+            title={Asynchronous Parallel Block-Coordinate Frank-Wolfe},</br>
+            author={Wang, Yu-Xiang and Sadhanala, Veeranjaneyulu and Dai, Wei and Neiswanger, Willie and Sra, Suvrit and Xing, Eric P},</br>
+            journal={arXiv preprint arXiv:1409.6086},</br>
+            year={2014} }
+            </p>
+          </div>
+
+          <!-- ========================================= -->
+
+          <hr>
           <h4>STRADS: A Distributed Framework for Scheduled Model
               Parallel Machine Learning</h4>
           <p>Jin Kyu Kim, Qirong Ho, Seunghak Lee, Xun Zheng, <strong>Wei
           Dai</strong>, Garth Gibson, Eric P.  Xing.</p>
-          <p>To appear in <em>EuroSys 2016</em></p>
+          <p><em>European Conference on Computer Systems (EuroSys), 2016</em></p>
+          <!-- paper -->
+          <a role="button" class="btn btn-default btn-sm"
+            href="papers/strads-kim-eurosys16.pdf">
+            <span class="glyphicon glyphicon-file"></span> pdf </a>
+
+          <!-- bib button -->
+          <a id="kim16" style="cursor:pointer;" role="button" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-file"></span> bib </a>
+          <script type="text/javascript">
+            $(document).ready(function(){$("#kim16").click(function(){
+              $("#kim16-content").slideToggle(); }); });
+          </script>
+          <div id="kim16-content" class="bib">
+            <p>
+              @inproceedings{kim2016strads,</br>
+                title={STRADS: a distributed framework for scheduled model parallel machine learning},</br>
+                author={Kim, Jin Kyu and Ho, Qirong and Lee, Seunghak and Zheng, Xun and Dai, Wei</br>
+                        and Gibson, Garth A and Xing, Eric P},</br>
+                booktitle={Proceedings of the Eleventh European Conference on Computer Systems},</br>
+                pages={5},</br>
+                year={2016},</br>
+                organization={ACM}}
+            </p>
+          </div>
 
           <hr>
           <h4>On Convergence of Model Parallel Proximal Gradient Algorithm for
           Stale Synchronous Parallel System</h4>
           <p>Yi Zhou, Yaoliang Yu, <strong>Wei Dai</strong>, Yingbin Liang,
           Eric P.  Xing</p>
-
-          <p>To appear in
-            <em>Artificial Intelligence and Statistics (AISTATS 2016)</em></p>
-
-          <!--
+          <p><em>Artificial Intelligence and Statistics (AISTATS), 2016</em></p>
+          <!-- paper -->
           <a role="button" class="btn btn-default btn-sm"
-            href="papers/socc-15.pdf">
+            href="http://jmlr.org/proceedings/papers/v51/zhou16.pdf">
             <span class="glyphicon glyphicon-file"></span> pdf </a>
-          -->
 
           <!-- bib button -->
           <a id="zhou16" style="cursor:pointer;" role="button" class="btn btn-default btn-sm">
@@ -80,11 +138,13 @@
               year      = {2016}}
             </p>
           </div>
+
           <!-- ========================================= -->
+
           <hr>
           <h4>Strategies and Principles of Distributed Machine Learning on Big Data</h4>
           <p>Eric P. Xing, Qirong Ho, Pengtao Xie, <strong>Wei Dai</strong></p>
-          <p><em>arXiv:1512.09295 (2015)</em></p>
+          <p><em>arXiv:1512.09295, 2015</em></p>
 
           <a role="button" class="btn btn-default btn-sm"
             href="http://arxiv.org/abs/1512.09295">
@@ -122,7 +182,7 @@
           Gregory R. Ganger, Phillip B. Gibbons, Garth A. Gibson, Eric P. Xing</p>
 
 
-          <p><em>ACM Symposium on Cloud Computing (SoCC) 2015. <strong>Best Paper Award!</strong></em></p>
+          <p><em>ACM Symposium on Cloud Computing (SoCC), 2015. <strong>Best Paper Award!</strong></em></p>
           <a role="button" class="btn btn-default btn-sm"
             href="papers/socc-15.pdf">
             <span class="glyphicon glyphicon-file"></span> pdf </a>
@@ -154,7 +214,7 @@
           <p>Eric P. Xing, Qirong Ho, <strong>Wei Dai</strong>, Jin Kyu Kim, Jinliang Wei,
           Seunghak Lee, Xun Zheng, Pengtao Xie, Abhimanu Kumar, Yaoliang Yu</p>
 
-          <p><em>Knowledge Discovery and Data Mining (KDD) 2015. Oral
+          <p><em>Knowledge Discovery and Data Mining (KDD), 2015. Oral
             Presentation</em></p>
 
           <a role="button" class="btn btn-default btn-sm"
@@ -195,7 +255,7 @@
           <p>Jinhui Yuan, Fei Gao, Qirong Ho, <strong>Wei Dai</strong>, Jinliang Wei, Xun
           Zheng, Eric P. Xing, Tie-Yan Liu, Wei-Ying Ma</p>
 
-          <p><em>International World Wide Web Conference (WWW) 2015. Oral Presentation</em></p>
+          <p><em>International World Wide Web Conference (WWW), 2015. Oral Presentation</em></p>
 
           <a role="button" class="btn btn-default btn-sm"
             href="http://arxiv.org/abs/1412.1576">
@@ -231,7 +291,7 @@
           <p><strong>Wei Dai</strong>, Abhimanu Kumar, Jinliang
           Wei, Qirong Ho, Garth Gibson, Eric P. Xing</p>
 
-          <p><em>AAAI Conference on Artificial Intelligence (AAAI) 2015.
+          <p><em>AAAI Conference on Artificial Intelligence (AAAI), 2015.
           Oral Presentation</em></p>
           <a role="button" class="btn btn-default btn-sm"
             href="papers/2015_ESSP_AAAI_Final.pdf">
@@ -264,40 +324,6 @@
 
           <!-- ========================================= -->
 
-          <hr>
-          <h4>Asynchronous Parallel Block-Coordinate Frank-Wolfe</h4>
-          <p>Yu-Xiang Wang, Veeranjaneyulu Sadhanala, <strong>Wei Dai</strong>, Willie
-          Neiswanger, Suvrit Sra, Eric P Xing</p>
-
-          <p><em>arXiv:1409.6086 (2014)</em></p>
-
-          <a role="button" class="btn btn-default btn-sm"
-            href="http://arxiv.org/abs/1409.6086">
-            <span class="glyphicon glyphicon-link"></span> arXiv </a>
-
-          <!-- paper -->
-          <a role="button" class="btn btn-default btn-sm"
-            href="http://arxiv.org/pdf/1409.6086v1.pdf">
-            <span class="glyphicon glyphicon-file"></span> pdf </a>
-
-          <!-- bib button -->
-          <a id="wang14" style="cursor:pointer;" role="button" class="btn btn-default btn-sm">
-            <span class="glyphicon glyphicon-file"></span> bib </a>
-          <script type="text/javascript">
-            $(document).ready(function(){$("#wang14").click(function(){
-              $("#wang14-content").slideToggle(); }); });
-          </script>
-          <div id="wang14-content" class="bib">
-            <p>
-            @article{wang2014asynchronous,</br>
-            title={Asynchronous Parallel Block-Coordinate Frank-Wolfe},</br>
-            author={Wang, Yu-Xiang and Sadhanala, Veeranjaneyulu and Dai, Wei and Neiswanger, Willie and Sra, Suvrit and Xing, Eric P},</br>
-            journal={arXiv preprint arXiv:1409.6086},</br>
-            year={2014} }
-            </p>
-          </div>
-
-          <!-- ========================================= -->
 
           <hr>
           <h4>Exploiting Bounded Staleness to Speed Up Big Data Analytics</h4>
@@ -307,7 +333,7 @@
           Gregory R. Ganger, Phillip B. Gibbons, Garth A. Gibson,
           Eric P. Xing</p>
 
-          <p><em>ATC (2014)</em></p>
+          <p><em>USENIX Annual Technical Conference (ATC), 2014</em></p>
 
           <a role="button" class="btn btn-default btn-sm"
             href="https://www.usenix.org/conference/atc14/technical-sessions/presentation/cui">
@@ -347,7 +373,7 @@
           , <strong>Wei Dai</strong>, Jesse Haber-Kucharsky, Qirong Ho,
           Gregory R Ganger, Phillip B Gibbons, Garth A Gibson, Eric P Xing</p>
 
-          <p><em>ACM Symposium on Cloud Computing (SoCC) 2014</em></p>
+          <p><em>ACM Symposium on Cloud Computing (SoCC), 2014</em></p>
 
           <a role="button" class="btn btn-default btn-sm"
             href="http://dl.acm.org/citation.cfm?id=2670984">
@@ -386,7 +412,7 @@
           <p><strong>Wei Dai</strong>, Jinliang Wei, Xun Zheng, Jin Kyu Kim, Seunghak Lee, Junming
           Yin, Qirong Ho, Eric P. Xing</p>
 
-          <p><em>arXiv:1312.7651 (2013)</em></p>
+          <p><em>arXiv:1312.7651, 2013</em></p>
 
           <!-- arXiv link -->
           <a role="button" class="btn btn-default btn-sm"
@@ -423,7 +449,7 @@
           <p><strong>Wei Dai</strong>, Jinliang Wei, Xun Zheng, Jin Kyu Kim, Seunghak Lee, Junming
           Yin, Qirong Ho, Eric P. Xing</p>
 
-          <p><em>NIPS, Big Learning Workshop (2013)</em></p>
+          <p><em>NIPS, Big Learning Workshop, 2013</em></p>
 
           <!-- arXiv link -->
           <a role="button" class="btn btn-default btn-sm"
@@ -459,7 +485,7 @@
             Distributed ML</h4>
           <p>Jinliang Wei, <strong>Wei Dai</strong>, Abhimanu Kumar, Xun Zheng, Qirong Ho, Eric
           P. Xing</p>
-          <p><em>arXiv:1312.7869 (2013)</em></p>
+          <p><em>arXiv:1312.7869, 2013</em></p>
 
           <!-- arXiv link -->
           <a role="button" class="btn btn-default btn-sm"
@@ -496,7 +522,7 @@
           <p><strong>Wei Dai</strong>, Sanat K. Kumar, Francis W. Starr
           </p>
 
-          <p> <em>Soft Matter, Vol. 6, pp. 6130-6135 (2010)</em></p>
+          <p><em>Soft Matter, 2010</em></p>
 
           <p>
           <!-- Journal link -->
@@ -540,7 +566,7 @@
           <p><strong>Wei Dai</strong>, Chia W. Hsu, Francesco  Sciortino,
           Francis W. Starr</p>
 
-          <p><em>Langmuir, Vol. 26, pp. 3601-3608 (2010)</em></p>
+          <p><em>Langmuir, 2010</em></p>
           
           <p>
           <!-- journal link -->
@@ -582,8 +608,8 @@
 
           <p><strong>Wei Dai</strong></p>
 
-          <p><em>Bachelor of Arts Honor Thesis: Wesleyan University (2010)</em></p>
-          
+          <p><em>Bachelor of Arts Honor Thesis: Wesleyan University, 2010</em></p>
+
           <p>
           <!-- journal link -->
           <a role="button" class="btn btn-default btn-sm"
